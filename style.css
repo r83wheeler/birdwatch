@@ -16,6 +16,11 @@ body {
   margin: 0 auto;
 }
 
+header {
+  margin:0;
+  padding:0;
+}
+
 /* || typography */
 
 h1, h2, h3 {
@@ -56,9 +61,11 @@ header {
   flex-flow: row wrap;
 }
 
-body > * {
-  background-color: red;
-  padding: 1%;
+body {
+  width: 100%;
+  margin: 0;
+  background-color: rgb(72, 255, 0);
+  padding: 0px;
 }
 
 main, header, nav, article, aside, footer, section {
@@ -71,7 +78,8 @@ h1 {
   text-transform: uppercase;
 }
 
-header img {
+img {
+  float: right;
   display: block;
   height: 60px;
   padding-top: 20.15px;
